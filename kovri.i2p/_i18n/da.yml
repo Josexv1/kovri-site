@@ -35,7 +35,7 @@ titles:
 home:
   main_para1: Kovri er en gratis, decentral, anonymitetsteknologi udviklet af Monero.
   main_para2: Kovri er på nuværende tidspunkt baseret på I2P's åbne specifikationer, og bruger både garlic kryptering og garlic routing til at skabe et privat og beskyttet overlagsnetværk over internettet. Dette overlagsnetværk giver brugere evnen til effektivt at skjule deres geografiske lokation og IP-adresse.
-  main_para3: Kort sagt anonymiserer Kovri en applikations internettrafik.
+    main_para3: Kort sagt anonymiserer Kovri en applikations internettrafik.
   main_para4: Som en let og sikkerhedsfokuseret router, er Kovri fuldt kompatibel med I2P netværket. En alfaversion af Kovri er under udarbejdelse.
   main_para5: Hold øje med fremgangen via Kovri repoen og tilslut dig fællesskabet.
   main_button: Kom i gang
