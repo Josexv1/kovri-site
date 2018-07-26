@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+- 2.5.1
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+branches:
+  only:
+  - master
+script:
+- git clone --recursive https://github.com/Josexv1/kovri-site
+- cd kovri.i2p
+- bundle install
+- bundle exec jekyll build
+- bundle exec htmlproofer ./_site --check-html --check-favicon --allow-hash-href
